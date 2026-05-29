@@ -1,0 +1,7 @@
+services:
+  searchgal:
+    image: jurangren/searchgal-api:latest
+    container_name: searchgal-api
+    ports:
+      - "8787:8787"
+    restart: unless-stopped

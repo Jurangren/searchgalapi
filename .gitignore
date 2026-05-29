@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Wrangler CLI temporary files
+.wrangler/
+
+# Build output (if any)
+# dist/
+# build/
+
+*.md
+
+# Environment variables
+.env
+.env.*
+
+# Deployment directories
+.vercel
+.netlify
+
+# IDE settings
+.vscode
+.claude
+
+.history
